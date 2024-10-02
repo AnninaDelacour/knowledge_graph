@@ -137,7 +137,8 @@ vbn:position_Mittelblock a vbn:Position .
 
 vbn:Nationalteam a vbn:Team ;
     vbn:hasHomeStadion vbn:ExampleStadion ;
-    vbn:hasTeamName "Nationalmannschaft" .
+    vbn:hasTeamName "Österreichische Volleyballnationalmannschaft der Frauen" .
+    owl:sameAs <https://www.wikidata.org/entity/Q306002> .
 
 vbn:nationality_AUT a vbn:Nationality .
 
