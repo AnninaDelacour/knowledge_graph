@@ -1,0 +1,143 @@
+@prefix vbn: <http://example.org/volleyball#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+vbn:player_1 a vbn:VolleyballPlayer ;
+    vbn:hasHeight "175 cm" ;
+    vbn:hasJerseyNumber 1 ;
+    vbn:hasName "Nicole Leonie HOLZINGER" ;
+    vbn:hasNationality vbn:nationality_AUT ;
+    vbn:hasPosition vbn:position_Aufspiel ;
+    vbn:playsFor vbn:Nationalteam .
+
+vbn:player_10 a vbn:VolleyballPlayer ;
+    vbn:hasHeight "188 cm" ;
+    vbn:hasJerseyNumber 18 ;
+    vbn:hasName "Nina NESIMOVIC" ;
+    vbn:hasNationality vbn:nationality_AUT ;
+    vbn:hasPosition vbn:position_Mittelblock ;
+    vbn:playsFor vbn:Nationalteam .
+
+vbn:player_11 a vbn:VolleyballPlayer ;
+    vbn:hasHeight "171 cm" ;
+    vbn:hasJerseyNumber 19 ;
+    vbn:hasName "Eva STABENTHEINER" ;
+    vbn:hasNationality vbn:nationality_AUT ;
+    vbn:hasPosition vbn:position_Libero ;
+    vbn:playsFor vbn:Nationalteam .
+
+vbn:player_12 a vbn:VolleyballPlayer ;
+    vbn:hasHeight "174 cm" ;
+    vbn:hasJerseyNumber 21 ;
+    vbn:hasName "Verena JANKA" ;
+    vbn:hasNationality vbn:nationality_AUT ;
+    vbn:hasPosition vbn:position_Mittelblock ;
+    vbn:playsFor vbn:Nationalteam .
+
+vbn:player_13 a vbn:VolleyballPlayer ;
+    vbn:hasHeight "185 cm" ;
+    vbn:hasJerseyNumber 22 ;
+    vbn:hasName "Jana GAERTNER" ;
+    vbn:hasNationality vbn:nationality_AUT ;
+    vbn:hasPosition vbn:position_Mittelblock ;
+    vbn:playsFor vbn:Nationalteam .
+
+vbn:player_14 a vbn:VolleyballPlayer ;
+    vbn:hasHeight "186 cm" ;
+    vbn:hasJerseyNumber 27 ;
+    vbn:hasName "Lelia FITZ" ;
+    vbn:hasNationality vbn:nationality_AUT ;
+    vbn:hasPosition vbn:position_Mittelblock ;
+    vbn:playsFor vbn:Nationalteam .
+
+vbn:player_15 a vbn:VolleyballPlayer ;
+    vbn:hasHeight "185 cm" ;
+    vbn:hasJerseyNumber 28 ;
+    vbn:hasName "Ursula EHRHART" ;
+    vbn:hasNationality vbn:nationality_AUT ;
+    vbn:hasPosition vbn:position_Diagonal ;
+    vbn:playsFor vbn:Nationalteam .
+
+vbn:player_2 a vbn:VolleyballPlayer ;
+    vbn:hasHeight "179 cm" ;
+    vbn:hasJerseyNumber 2 ;
+    vbn:hasName "Carmen RAAB" ;
+    vbn:hasNationality vbn:nationality_AUT ;
+    vbn:hasPosition vbn:position_Diagonal ;
+    vbn:playsFor vbn:Nationalteam .
+
+vbn:player_3 a vbn:VolleyballPlayer ;
+    vbn:hasHeight "173 cm" ;
+    vbn:hasJerseyNumber 3 ;
+    vbn:hasName "Tamina HUBER" ;
+    vbn:hasNationality vbn:nationality_AUT ;
+    vbn:hasPosition vbn:position_Libero ;
+    vbn:playsFor vbn:Nationalteam .
+
+vbn:player_4 a vbn:VolleyballPlayer ;
+    vbn:hasHeight "185 cm" ;
+    vbn:hasJerseyNumber 10 ;
+    vbn:hasName "Julia TRUNNER" ;
+    vbn:hasNationality vbn:nationality_AUT ;
+    vbn:hasPosition vbn:position_Diagonal ;
+    vbn:playsFor vbn:Nationalteam .
+
+vbn:player_5 a vbn:VolleyballPlayer ;
+    vbn:hasHeight "183 cm" ;
+    vbn:hasJerseyNumber 11 ;
+    vbn:hasName "Monika CHRTIANSKA" ;
+    vbn:hasNationality vbn:nationality_AUT ;
+    vbn:hasPosition vbn:position_Außenangriff ;
+    vbn:playsFor vbn:Nationalteam .
+
+vbn:player_6 a vbn:VolleyballPlayer ;
+    vbn:hasHeight "180 cm" ;
+    vbn:hasJerseyNumber 13 ;
+    vbn:hasName "Lina HINTEREGGER" ;
+    vbn:hasNationality vbn:nationality_AUT ;
+    vbn:hasPosition vbn:position_Außenangriff ;
+    vbn:playsFor vbn:Nationalteam .
+
+vbn:player_7 a vbn:VolleyballPlayer ;
+    vbn:hasHeight "183 cm" ;
+    vbn:hasJerseyNumber 14 ;
+    vbn:hasName "Kora Marina SCHABERL" ;
+    vbn:hasNationality vbn:nationality_AUT ;
+    vbn:hasPosition vbn:position_Außenangriff ;
+    vbn:playsFor vbn:Nationalteam .
+
+vbn:player_8 a vbn:VolleyballPlayer ;
+    vbn:hasHeight "166 cm" ;
+    vbn:hasJerseyNumber 15 ;
+    vbn:hasName "Anna OBERHAUSER" ;
+    vbn:hasNationality vbn:nationality_AUT ;
+    vbn:hasPosition vbn:position_Libero ;
+    vbn:playsFor vbn:Nationalteam .
+
+vbn:player_9 a vbn:VolleyballPlayer ;
+    vbn:hasHeight "175 cm" ;
+    vbn:hasJerseyNumber 17 ;
+    vbn:hasName "Dana SCHMIT" ;
+    vbn:hasNationality vbn:nationality_AUT ;
+    vbn:hasPosition vbn:position_Aufspiel ;
+    vbn:playsFor vbn:Nationalteam .
+
+vbn:ExampleStadion a vbn:Stadion ;
+    vbn:hasStadionAdress "Example Adress" ;
+    vbn:hasStadionName "Example Stadion" .
+
+vbn:position_Aufspiel a vbn:Position .
+
+vbn:position_Außenangriff a vbn:Position .
+
+vbn:position_Diagonal a vbn:Position .
+
+vbn:position_Libero a vbn:Position .
+
+vbn:position_Mittelblock a vbn:Position .
+
+vbn:Nationalteam a vbn:Team ;
+    vbn:hasHomeStadion vbn:ExampleStadion ;
+    vbn:hasTeamName "Nationalmannschaft" .
+
+vbn:nationality_AUT a vbn:Nationality .
+
